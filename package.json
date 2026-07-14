@@ -1,0 +1,27 @@
+{
+  "name": "student-certificate-verification",
+  "version": "1.0.0",
+  "description": "A decentralized student certificate verification system on Ethereum",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js",
+    "node": "hardhat node"
+  },
+  "keywords": [
+    "ethereum",
+    "solidity",
+    "certificate",
+    "verification",
+    "blockchain",
+    "education"
+  ],
+  "author": "Blockchain Developer",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.28.6"
+  }
+}
